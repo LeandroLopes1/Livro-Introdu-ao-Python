@@ -1,0 +1,1 @@
+# o programa para, ja que definimos que menor que 0.01 ele para.
