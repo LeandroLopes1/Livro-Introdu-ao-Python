@@ -1,6 +1,3 @@
-from re import A
-
-
 def valida_entrada(mensagem, opçoes_validas):
     opçoes = opçoes_validas.lower()
     while True:
