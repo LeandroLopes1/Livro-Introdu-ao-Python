@@ -1,0 +1,7 @@
+Oi 
+
+Sou o Leandro
+
+Estou fazendo o curso de Python.
+
+Este arquivo é para ser aberto e lido com o sys do Python.
