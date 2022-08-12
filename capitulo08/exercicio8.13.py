@@ -8,4 +8,5 @@ def valida_entrada(mensagem, opçoes_validas):
             print(f"Opção inválida. Digite uma opção válida: {opçoes_validas}")
     return entrada
 
+
 print(valida_entrada("Digite uma opção: ", "abcde"))

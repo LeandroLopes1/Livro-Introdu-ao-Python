@@ -1,5 +1,6 @@
 # sequencia fibonacci sem usar recursao
 
+
 def fibonacci(n):
     p = 0
     s = 1
@@ -7,6 +8,7 @@ def fibonacci(n):
         p, s = s, p + s
         n -= 1
     return p
+
 
 for i in range(10):
     print(f"{i} = {fibonacci(i)}")
@@ -18,8 +20,7 @@ def fibonacci_rec(n):
         return n
     else:
         return fibonacci_rec(n - 1) + fibonacci_rec(n - 2)
+
+
 for i in range(10):
     print(f"{i} = {fibonacci_rec(i)}")
-    
-
-

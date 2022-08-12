@@ -6,6 +6,7 @@
         break
 print('Valor válido') """
 
+
 def faixa_int(pergunta, minimo, maximo):
     while True:
         n = int(input(pergunta))
@@ -14,5 +15,5 @@ def faixa_int(pergunta, minimo, maximo):
         else:
             return n
 
-print(faixa_int('Digite um número entre 0 e 5: ', 0, 5))
-        
+
+print(faixa_int("Digite um número entre 0 e 5: ", 0, 5))
